@@ -1,6 +1,6 @@
 const firebaseAdmin = require("../firebase");
 
-module.exports = function ValidateAccessCode(req, res) {
+module.exports = function (req, res) {
   const phoneNumber = String(req.body.phoneNumber).replace(/[^\d]/g, "");
   const code = req.body.code.toString();
   firebaseAdmin

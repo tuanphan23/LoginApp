@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const pino = require("express-pino-logger")();
 const CreateNewAccessCode = require("./firebase/functions/CreateNewAccessCode");
 const ValidateAccessCode = require("./firebase/functions/ValidateAccessCode");
+const CreateNewUser = require("./firebase/functions/CreateNewUser");
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
