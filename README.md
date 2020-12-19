@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install node-env-run --save-dev`
+### `npm install pino-colada`
 ### `npm run dev`
 
 Runs the app in the development mode.\
